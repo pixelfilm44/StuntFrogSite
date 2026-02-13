@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stunt Frog Superstar - Leap Into Action!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Bubbles background -->
+    <div class="bubbles" aria-hidden="true">
+        <div class="bubble b1"></div>
+        <div class="bubble b2"></div>
+        <div class="bubble b3"></div>
+        <div class="bubble b4"></div>
+        <div class="bubble b5"></div>
+        <div class="bubble b6"></div>
+        <div class="bubble b7"></div>
+        <div class="bubble b8"></div>
+    </div>
+
+    <!-- HERO -->
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav-logo-wrapper">
+                <img src="icon.png" alt="Stunt Frog Superstar icon" class="nav-icon">
+                <span class="nav-logo">STUNT FROG</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="#weather">Weather</a>
+                <a href="https://apps.apple.com/us/app/stuntfrog-superstar/id6754825600" class="nav-cta">Get It - $1.99</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    <img src="StuntFrogTitle.svg" alt="Stunt Frog Superstar" class="title-logo">
+                    <span class="sr-only">Stunt Frog Superstar</span>
+                </h1>
+                <p class="hero-tagline">Slingshot your way across lily pads, battle bees and snakes, survive dynamic weather, and become the ultimate amphibian acrobat!</p>
+                <div class="hero-buttons">
+                    <a href="https://apps.apple.com/us/app/stuntfrog-superstar/id6754825600" class="btn btn-primary">
+                        <svg class="apple-icon" viewBox="0 0 24 24" width="20" height="20" fill="white"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                        App Store - $1.99
+                    </a>
+                    <a href="#screenshots" class="btn btn-secondary">See Gameplay</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <img src="trophy.png" alt="Stars" class="stat-icon">
+                        <span class="stat-text">4.8 Stars</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <img src="bee.png" alt="Weather" class="stat-icon">
+                        <span class="stat-text">6 Weather Types</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <img src="icon.png" alt="No Ads" class="stat-icon">
+                        <span class="stat-text">No Ads</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wave-divider">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,40 C180,100 360,0 540,50 C720,100 900,20 1080,60 C1260,100 1350,30 1440,50 L1440,120 L0,120 Z" fill="#0f2b1d"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- POSTER BANNER -->
+    <section class="poster-banner">
+        <div class="poster-wrapper">
+            <img src="StuntFrogPoster.png" alt="Stunt Frog Superstar game scene - frog riding a crocodile through a swamp with bees and dragonflies" class="poster-img">
+            <div class="poster-overlay">
+                <p class="poster-text">Navigate treacherous swamps filled with danger at every turn</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why You'll Love It</h2>
+            <p class="section-subtitle">A physics-based hopper with serious depth</p>
+            <div class="features-grid">
+                <div class="feature-card" data-delay="0">
+                    <div class="feature-icon"><img src="slingshot.png" alt="Slingshot"></div>
+                    <h3>Slingshot Physics</h3>
+                    <p>Touch, drag, and fling your frog with precision. Every jump is a calculated leap of faith across the swamp.</p>
+                </div>
+                <div class="feature-card" data-delay="100">
+                    <div class="feature-icon"><img src="bee.png" alt="Weather"></div>
+                    <h3>Dynamic Weather</h3>
+                    <p>Battle through rain, snow, ice storms, and more. Each weather type changes the physics and enemy behavior.</p>
+                </div>
+                <div class="feature-card" data-delay="200">
+                    <div class="feature-icon"><img src="rocket.png" alt="Rocket"></div>
+                    <h3>Rocket Power-Up</h3>
+                    <p>Blast off into the sky with temporary invincibility! Steer through the air and rack up massive bonus points.</p>
+                </div>
+                <div class="feature-card" data-delay="300">
+                    <div class="feature-icon"><img src="store.png" alt="Frog Shop"></div>
+                    <h3>Frog Shop</h3>
+                    <p>Earn Tadpole Coins and spend them on permanent upgrades: jump range, max health, impact jumps, and more.</p>
+                </div>
+                <div class="feature-card" data-delay="400">
+                    <div class="feature-icon"><img src="trophy.png" alt="Challenges"></div>
+                    <h3>Challenges</h3>
+                    <p>Complete challenges like Marathon Frog and Croc Surfer to earn bonus coins and bragging rights.</p>
+                </div>
+                <div class="feature-card" data-delay="500">
+                    <div class="feature-icon"><img src="lifevest.png" alt="Level-Up Bonuses"></div>
+                    <h3>Level-Up Bonuses</h3>
+                    <p>Choose between Life Vests, Heart Containers, and more mid-run. Every decision shapes your journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section id="screenshots" class="screenshots">
+        <div class="wave-top">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,80 C180,20 360,100 540,60 C720,20 900,90 1080,50 C1260,10 1350,80 1440,60 L1440,0 L0,0 Z" fill="#0f2b1d"/>
+            </svg>
+        </div>
+        <div class="container">
+            <h2 class="section-title light">See It In Action</h2>
+            <p class="section-subtitle light">Swipe through real gameplay on iPhone and iPad</p>
+
+            <!-- iPhone Screenshots -->
+            <div class="screenshot-carousel" id="iphoneCarousel">
+                <button class="carousel-btn prev" aria-label="Previous screenshot">&lsaquo;</button>
+                <div class="carousel-track-wrapper">
+                    <div class="carousel-track">
+                        <div class="screenshot-slide">
+                            <img src="iPhone1.png" alt="Gameplay - sling your frog to rescue tadpoles" loading="lazy">
+                        </div>
+                        <div class="screenshot-slide">
+                            <img src="iPhone2.png" alt="Gameplay - hop through different weather" loading="lazy">
+                        </div>
+                        <div class="screenshot-slide">
+                            <img src="iPhone3.png" alt="Level up - choose a bonus" loading="lazy">
+                        </div>
+                        <div class="screenshot-slide">
+                            <img src="iPhone4.png" alt="Challenges screen" loading="lazy">
+                        </div>
+                        <div class="screenshot-slide">
+                            <img src="iPhone5.png" alt="Frog Shop - permanent upgrades" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Next screenshot">&rsaquo;</button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+
+            <!-- iPad Showcase -->
+            <div class="ipad-showcase">
+                <h3 class="ipad-title">Gorgeous on iPad</h3>
+                <div class="ipad-grid">
+                    <img src="ipad1.png" alt="iPad gameplay - hop through the swamp" loading="lazy" class="ipad-img">
+                    <img src="ipad2.png" alt="iPad gameplay - level up screen" loading="lazy" class="ipad-img">
+                </div>
+            </div>
+        </div>
+        <div class="wave-bottom">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,40 C180,100 360,0 540,50 C720,100 900,20 1080,60 C1260,100 1350,30 1440,50 L1440,120 L0,120 Z" fill="#e8f8f5"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- WEATHER SYSTEM -->
+    <section id="weather" class="weather-section">
+        <div class="container">
+            <h2 class="section-title dark">Dynamic Weather System</h2>
+            <p class="section-subtitle dark">The swamp is alive and always changing. Even the enemies transform to match the weather!</p>
+            <div class="weather-grid">
+                <div class="weather-card sunny">
+                    <img src="beeDesert.png" alt="Desert bee with angry red eyes" class="weather-bee-img" loading="lazy">
+                    <h3>Sunny Day</h3>
+                    <p>Clear skies and standard physics. Watch out for angry red-eyed bees!</p>
+                </div>
+                <div class="weather-card night">
+                    <img src="beeNight.png" alt="Night bee with night-vision goggles" class="weather-bee-img" loading="lazy">
+                    <h3>Starry Night</h3>
+                    <p>Reduced visibility, but the bees have night-vision goggles. Sneaky!</p>
+                </div>
+                <div class="weather-card rain">
+                    <img src="beeRain.png" alt="Bee with a tiny umbrella" class="weather-bee-img" loading="lazy">
+                    <h3>Rainstorm</h3>
+                    <p>Slippery pads everywhere. The bees brought umbrellas. You didn't.</p>
+                </div>
+                <div class="weather-card winter">
+                    <img src="beeWinter.png" alt="Bee in winter gear" class="weather-bee-img" loading="lazy">
+                    <h3>Winter</h3>
+                    <p>Ice, snow, and spike bushes. Even the bees are bundled up for battle.</p>
+                </div>
+                <div class="weather-card ice">
+                    <img src="beeskeleton.png" alt="Skeleton bee" class="weather-bee-img" loading="lazy">
+                    <h3>Haunted Swamp</h3>
+                    <p>Skeleton bees rise from the depths. Spooky, slippery, and deadly.</p>
+                </div>
+                <div class="weather-card storm">
+                    <img src="beeSpace.png" alt="Bee in a space helmet" class="weather-bee-img" loading="lazy">
+                    <h3>Space Storm</h3>
+                    <p>Cosmic chaos! Space-suited bees and wild gravity shifts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENEMIES & ITEMS -->
+    <section class="enemies-items">
+        <div class="container">
+            <div class="ei-split">
+                <!-- Enemies -->
+                <div class="ei-column">
+                    <h2 class="section-title dark">Swamp Villains</h2>
+                    <div class="ei-list">
+                        <div class="ei-row">
+                            <img src="beeDesert.png" alt="Bee" class="ei-img">
+                            <div>
+                                <h4>Bees</h4>
+                                <p>Hover and orbit lily pads. They change with the weather! Counter: Honey Jar</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="snake.png" alt="Snake" class="ei-img">
+                            <div>
+                                <h4>Snakes</h4>
+                                <p>Swim through water and slither over pads. Avoid at all costs!</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="dragonfly.png" alt="Dragonfly" class="ei-img">
+                            <div>
+                                <h4>Dragonflies</h4>
+                                <p>Zip across the swamp at lightning speed. Hard to predict, harder to dodge!</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="cactus.png" alt="Cactus" class="ei-img">
+                            <div>
+                                <h4>Cactus</h4>
+                                <p>Prickly obstacles scattered across lily pads. One touch and you're hurting!</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="ghostBee.png" alt="Ghost Bee" class="ei-img">
+                            <div>
+                                <h4>Ghost Bees</h4>
+                                <p>Spectral bees that track your position. Counter: Impact Jump</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="log.png" alt="Log" class="ei-img">
+                            <div>
+                                <h4>Logs</h4>
+                                <p>Floating logs that tumble through the swamp. Dodge or get knocked off course!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Items -->
+                <div class="ei-column">
+                    <h2 class="section-title dark">Your Arsenal</h2>
+                    <div class="ei-list">
+                        <div class="ei-row">
+                            <img src="lifevest.png" alt="Life Vest" class="ei-img">
+                            <div>
+                                <h4>Life Vest</h4>
+                                <p>Auto-bounces you to safety when you hit water. Up to 6 charges!</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="honeyPot.png" alt="Honey Jar" class="ei-img">
+                            <div>
+                                <h4>Honey Jar</h4>
+                                <p>Specific protection against bees. Negates sting damage.</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="flyswatter.png" alt="Flyswatter" class="ei-img">
+                            <div>
+                                <h4>Flyswatter</h4>
+                                <p>Swat away dragonflies and bees on contact. A frog's best friend!</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="rainboots.png" alt="Rainboots" class="ei-img">
+                            <div>
+                                <h4>Rainboots</h4>
+                                <p>Stomp through the swamp with extra bounce and protection!</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="rocket.png" alt="Rocket" class="ei-img">
+                            <div>
+                                <h4>Rocket</h4>
+                                <p>Launch into the sky! Invincible flight with bonus scoring.</p>
+                            </div>
+                        </div>
+                        <div class="ei-row">
+                            <img src="crocodile.png" alt="Crocodile" class="ei-img">
+                            <div>
+                                <h4>Crocodile</h4>
+                                <p>Hitch a ride on a friendly croc and cruise through the swamp!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FROG SHOP PREVIEW -->
+    <section class="shop-preview">
+        <div class="container">
+            <div class="shop-split">
+                <div class="shop-info">
+                    <h2 class="section-title dark left-align">The Frog Shop</h2>
+                    <p class="shop-desc">Earn Tadpole Coins during your runs and spend them on permanent Super Powers that carry between games.</p>
+                    <div class="shop-upgrades">
+                        <div class="upgrade-pill"><img src="slingshot.png" alt="" class="pill-icon"> Jump Range</div>
+                        <div class="upgrade-pill"><img src="rocket.png" alt="" class="pill-icon"> Jump Speed</div>
+                        <div class="upgrade-pill"><img src="heart.png" alt="" class="pill-icon"> Max Health</div>
+                        <div class="upgrade-pill"><img src="strongFrog.png" alt="" class="pill-icon"> Super Jump Focus</div>
+                        <div class="upgrade-pill"><img src="ghostFrog.png" alt="" class="pill-icon"> Ghost Magic</div>
+                        <div class="upgrade-pill"><img src="bomb.png" alt="" class="pill-icon"> Impact Jumps</div>
+                        <div class="upgrade-pill"><img src="boat.png" alt="" class="pill-icon"> Log Jumper</div>
+                        <div class="upgrade-pill"><img src="treasureChest.png" alt="" class="pill-icon"> Cannon Jump</div>
+                    </div>
+                </div>
+                <div class="shop-screenshot">
+                    <img src="iPhone5.png" alt="Frog Shop screenshot showing permanent upgrades" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section id="download" class="download">
+        <div class="wave-top-green">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,80 C180,20 360,100 540,60 C720,20 900,90 1080,50 C1260,10 1350,80 1440,60 L1440,0 L0,0 Z" fill="#e8f8f5"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="download-content">
+                <div class="download-split">
+                    <div class="download-art">
+                        <img src="frogStuck.png" alt="Stunt Frog hanging from a branch" class="download-frog-img">
+                    </div>
+                    <div class="download-info">
+                        <h2 class="download-title">Ready to Leap?</h2>
+                        <p class="download-text">Stunt Frog Superstar is just <strong>$1.99</strong> with no ads, no in-app purchases, and no tricks. Just pure frog-flinging fun on iPhone and iPad.</p>
+                        <div class="download-features">
+                            <span>&#10003; No Ads</span>
+                            <span>&#10003; No In-App Purchases</span>
+                            <span>&#10003; iPhone + iPad</span>
+                            <span>&#10003; Offline Play</span>
+                        </div>
+                        <a href="https://apps.apple.com/us/app/stuntfrog-superstar/id6754825600" class="app-store-btn">
+                            <div class="store-icon">
+                                <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
+                                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                </svg>
+                            </div>
+                            <div class="store-text">
+                                <span class="store-label">Download on the</span>
+                                <span class="store-name">App Store</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="icon.png" alt="" class="footer-icon">
+                    <div>
+                        <span class="footer-logo">Stunt Frog Superstar</span>
+                        <p>Made with love for frogs everywhere.</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Support</a>
+                    <a href="#">Press Kit</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Stunt Frog Superstar. All rights reserved. No frogs were harmed in the making of this game.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
