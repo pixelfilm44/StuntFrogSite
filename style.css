@@ -507,111 +507,18 @@ a {
     padding-bottom: 80px;
 }
 
-/* --- Carousel --- */
-.screenshot-carousel {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 20px;
-}
-
-.carousel-track-wrapper {
-    overflow: hidden;
-    border-radius: 20px;
-    flex: 1;
-}
-
-.carousel-track {
-    display: flex;
-    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.screenshot-slide {
-    min-width: 100%;
+/* --- Video Showcase --- */
+.video-showcase {
     display: flex;
     justify-content: center;
-    padding: 0 10px;
+    margin-bottom: 40px;
 }
 
-.screenshot-slide img {
-    max-height: 580px;
-    width: auto;
+.video-showcase video {
+    width: 100%;
+    max-width: 800px;
     border-radius: 20px;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
-}
-
-.carousel-btn {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.3);
-    background: rgba(255,255,255,0.1);
-    color: white;
-    font-size: 1.8rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s, transform 0.3s;
-    flex-shrink: 0;
-    backdrop-filter: blur(10px);
-    line-height: 1;
-}
-
-.carousel-btn:hover {
-    background: rgba(255,255,255,0.2);
-    transform: scale(1.1);
-}
-
-.carousel-dots {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 60px;
-}
-
-.carousel-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.3);
-    cursor: pointer;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.carousel-dot.active {
-    background: var(--gold);
-    transform: scale(1.3);
-}
-
-/* --- iPad --- */
-.ipad-showcase {
-    margin-top: 20px;
-}
-
-.ipad-title {
-    text-align: center;
-    color: var(--white);
-    font-size: 1.6rem;
-    margin-bottom: 24px;
-}
-
-.ipad-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-}
-
-.ipad-img {
-    width: 100%;
-    border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;
-}
-
-.ipad-img:hover {
-    transform: scale(1.02);
 }
 
 /* ============================================================
@@ -1049,8 +956,6 @@ a {
 
     .features-grid { grid-template-columns: 1fr; }
 
-    .ipad-grid { grid-template-columns: 1fr; }
-
     .weather-grid { grid-template-columns: repeat(2, 1fr); }
 
     .footer-content {
@@ -1080,7 +985,4 @@ a {
 
     .weather-grid { grid-template-columns: 1fr; }
 
-    .screenshot-slide img { max-height: 420px; }
-
-    .carousel-btn { width: 40px; height: 40px; font-size: 1.4rem; }
 }

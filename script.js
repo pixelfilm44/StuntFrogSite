@@ -41,81 +41,9 @@ window.addEventListener('scroll', () => {
     }
 }, { passive: true });
 
-// --- Screenshot Carousel ---
-const carousel = document.getElementById('iphoneCarousel');
-if (carousel) {
-    const track = carousel.querySelector('.carousel-track');
-    const slides = carousel.querySelectorAll('.screenshot-slide');
-    const prevBtn = carousel.querySelector('.prev');
-    const nextBtn = carousel.querySelector('.next');
-    const dotsContainer = document.getElementById('carouselDots');
-    let currentIndex = 0;
-    let autoplayTimer;
-
-    // Create dots
-    slides.forEach((_, i) => {
-        const dot = document.createElement('div');
-        dot.classList.add('carousel-dot');
-        if (i === 0) dot.classList.add('active');
-        dot.addEventListener('click', () => goToSlide(i));
-        dotsContainer.appendChild(dot);
-    });
-
-    function goToSlide(index) {
-        currentIndex = index;
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
-        // Update dots
-        dotsContainer.querySelectorAll('.carousel-dot').forEach((dot, i) => {
-            dot.classList.toggle('active', i === currentIndex);
-        });
-        resetAutoplay();
-    }
-
-    function nextSlide() {
-        goToSlide((currentIndex + 1) % slides.length);
-    }
-
-    function prevSlide() {
-        goToSlide((currentIndex - 1 + slides.length) % slides.length);
-    }
-
-    nextBtn.addEventListener('click', nextSlide);
-    prevBtn.addEventListener('click', prevSlide);
-
-    // Autoplay
-    function resetAutoplay() {
-        clearInterval(autoplayTimer);
-        autoplayTimer = setInterval(nextSlide, 4000);
-    }
-    resetAutoplay();
-
-    // Pause autoplay on hover
-    carousel.addEventListener('mouseenter', () => clearInterval(autoplayTimer));
-    carousel.addEventListener('mouseleave', resetAutoplay);
-
-    // Touch/swipe support
-    let touchStartX = 0;
-    let touchEndX = 0;
-
-    carousel.addEventListener('touchstart', (e) => {
-        touchStartX = e.changedTouches[0].screenX;
-        clearInterval(autoplayTimer);
-    }, { passive: true });
-
-    carousel.addEventListener('touchend', (e) => {
-        touchEndX = e.changedTouches[0].screenX;
-        const diff = touchStartX - touchEndX;
-        if (Math.abs(diff) > 50) {
-            if (diff > 0) nextSlide();
-            else prevSlide();
-        }
-        resetAutoplay();
-    }, { passive: true });
-}
-
 // --- Scroll reveal animations ---
 const revealElements = document.querySelectorAll(
-    '.feature-card, .weather-card, .ei-row, .upgrade-pill, .ipad-img, .shop-split, .download-split'
+    '.feature-card, .weather-card, .ei-row, .upgrade-pill, .video-showcase, .shop-split, .download-split'
 );
 
 const revealObserver = new IntersectionObserver((entries) => {
