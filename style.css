@@ -690,6 +690,21 @@ a {
     margin-bottom: 24px;
 }
 
+.shop-category-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--swamp-dark);
+    margin-top: 18px;
+    margin-bottom: 8px;
+    opacity: 0.6;
+}
+
+.shop-category-title:first-of-type {
+    margin-top: 0;
+}
+
 .shop-upgrades {
     display: flex;
     flex-wrap: wrap;
