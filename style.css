@@ -438,33 +438,41 @@ a {
 .section-subtitle.dark { color: var(--text-mid); }
 .section-subtitle.light { color: rgba(255, 255, 255, 0.6); }
 
+/* 1. The Container: This handles the layout of the cards */
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;           /* Allows cards to move to the next row */
+    justify-content: center;    /* This centers the last card on its own row */
+    gap: 20px;                 /* Space between cards */
+    max-width: 1200px;         /* Keeps the section from getting too wide */
+    margin: 0 auto;            /* Centers the grid container itself */
 }
 
+/* 2. The Card: Controls how big each card is */
 .feature-card {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 20px;
-    padding: 36px 28px;
+    flex: 0 1 350px;           /* Cards will try to be 350px wide */
+    min-width: 300px;          /* Prevents them from getting too skinny */
+    background: #000;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    
+    /* Optional: Center the text/images INSIDE the card */
     text-align: center;
-    backdrop-filter: blur(10px);
-    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.feature-card:hover {
-    transform: translateY(-8px);
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+.feature-icon img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 15px;
 }
 
-.feature-icon {
-    font-size: 2.8rem;
-    margin-bottom: 16px;
-    display: block;
-}
+
+
+
 
 .feature-icon img {
     width: 64px;
