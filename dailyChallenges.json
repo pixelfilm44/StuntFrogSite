@@ -1,0 +1,443 @@
+[
+    {
+        "date": "2026-02-11",
+        "seed": 20260211,
+        "climate": "rain",
+        "focusEnemyTypes": ["bee", "dragonfly"],
+        "focusPadTypes": ["moving", "shrinking"],
+        "name": "Stormy Skies",
+        "description": "Navigate the rain with moving and shrinking pads!"
+    },
+    {
+        "date": "2026-02-12",
+        "seed": 20260212,
+        "climate": "desert",
+        "focusEnemyTypes": ["snake", "crocodile"],
+        "focusPadTypes": ["normal", "moving"],
+        "name": "Desert Dash",
+        "description": "Survive the scorching desert heat!"
+    },
+    {
+        "date": "2026-02-13",
+        "seed": 20260213,
+        "climate": "winter",
+        "focusEnemyTypes": ["bee"],
+        "focusPadTypes": ["ice", "shrinking"],
+        "name": "Frozen Frenzy",
+        "description": "Brave the icy pads and slippery conditions!"
+    },
+    {
+        "date": "2026-02-14",
+        "seed": 20260214,
+        "climate": "night",
+        "focusEnemyTypes": ["dragonfly", "mixed"],
+        "focusPadTypes": ["normal", "moving"],
+        "name": "Valentine's Leap",
+        "description": "A moonlit challenge under the stars!"
+    },
+    {
+        "date": "2026-02-15",
+        "seed": 20260215,
+        "climate": "sunny",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["shrinking", "ice"],
+        "name": "Sunny Sprint",
+        "description": "Don't let the sunshine fool you - pads are tricky today!"
+    },
+    {
+        "date": "2026-02-16",
+        "seed": 20260216,
+        "climate": "space",
+        "focusEnemyTypes": ["bee", "dragonfly"],
+        "focusPadTypes": ["moving", "normal"],
+        "name": "Zero Gravity",
+        "description": "Float through space with reduced gravity!"
+    },
+    {
+        "date": "2026-02-17",
+        "seed": 20260217,
+        "climate": "rain",
+        "focusEnemyTypes": ["crocodile", "snake"],
+        "focusPadTypes": ["shrinking", "moving"],
+        "name": "Monsoon Madness",
+        "description": "Heavy rain and dangerous creatures await!"
+    },
+    {
+        "date": "2026-02-18",
+        "seed": 20260218,
+        "climate": "desert",
+        "focusEnemyTypes": ["snake"],
+        "focusPadTypes": ["normal", "ice"],
+        "name": "Oasis Run",
+        "description": "Find your way through the desert obstacles!"
+    },
+    {
+        "date": "2026-02-19",
+        "seed": 20260219,
+        "climate": "night",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["ice", "moving"],
+        "name": "Midnight Marathon",
+        "description": "A chilly night run on slippery pads!"
+    },
+    {
+        "date": "2026-02-20",
+        "seed": 20260220,
+        "climate": "winter",
+        "focusEnemyTypes": ["dragonfly", "bee"],
+        "focusPadTypes": ["ice", "normal"],
+        "name": "Blizzard Blitz",
+        "description": "Fight through the snowstorm!"
+    },
+    {
+        "date": "2026-02-21",
+        "seed": 20260221,
+        "climate": "sunny",
+        "focusEnemyTypes": ["crocodile"],
+        "focusPadTypes": ["moving", "shrinking"],
+        "name": "Croc Canyon",
+        "description": "Watch out for crocodiles on every turn!"
+    },
+    {
+        "date": "2026-02-22",
+        "seed": 20260222,
+        "climate": "space",
+        "focusEnemyTypes": ["bee", "mixed"],
+        "focusPadTypes": ["shrinking", "ice"],
+        "name": "Cosmic Chaos",
+        "description": "Navigate the cosmos on disappearing pads!"
+    },
+    {
+        "date": "2026-02-23",
+        "seed": 20260223,
+        "climate": "rain",
+        "focusEnemyTypes": ["dragonfly"],
+        "focusPadTypes": ["normal", "moving"],
+        "name": "Dragonfly Downpour",
+        "description": "Dragonflies swarm in the rain!"
+    },
+    {
+        "date": "2026-02-24",
+        "seed": 20260224,
+        "climate": "desert",
+        "focusEnemyTypes": ["snake", "bee"],
+        "focusPadTypes": ["moving", "normal"],
+        "name": "Sandstorm Surge",
+        "description": "Bees and snakes in the desert heat!"
+    },
+    {
+        "date": "2026-02-25",
+        "seed": 20260225,
+        "climate": "winter",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["ice"],
+        "name": "Ice Age",
+        "description": "Everything is frozen solid - pure ice pads!"
+    },
+    {
+        "date": "2026-02-26",
+        "seed": 20260226,
+        "climate": "night",
+        "focusEnemyTypes": ["crocodile", "dragonfly"],
+        "focusPadTypes": ["shrinking", "normal"],
+        "name": "Nightcrawler",
+        "description": "Predators lurk in the darkness!"
+    },
+    {
+        "date": "2026-02-27",
+        "seed": 20260227,
+        "climate": "sunny",
+        "focusEnemyTypes": ["bee", "snake"],
+        "focusPadTypes": ["normal", "moving"],
+        "name": "Sunshine Showdown",
+        "description": "A beautiful day for a dangerous run!"
+    },
+    {
+        "date": "2026-02-28",
+        "seed": 20260228,
+        "climate": "space",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["moving", "shrinking"],
+        "name": "Asteroid Alley",
+        "description": "Dodge through the asteroid field!"
+    },
+    {
+        "date": "2026-03-01",
+        "seed": 20260301,
+        "climate": "sunny",
+        "focusEnemyTypes": ["bee", "dragonfly"],
+        "focusPadTypes": ["normal", "shrinking"],
+        "name": "March Madness",
+        "description": "Welcome to March with flying foes!"
+    },
+    {
+        "date": "2026-03-02",
+        "seed": 20260302,
+        "climate": "rain",
+        "focusEnemyTypes": ["crocodile"],
+        "focusPadTypes": ["moving", "ice"],
+        "name": "Rainy Rampage",
+        "description": "Crocodiles love the rain - do you?"
+    },
+    {
+        "date": "2026-03-03",
+        "seed": 20260303,
+        "climate": "winter",
+        "focusEnemyTypes": ["snake", "bee"],
+        "focusPadTypes": ["ice", "shrinking"],
+        "name": "Frosty Finale",
+        "description": "Winter's last gasp brings ice and danger!"
+    },
+    {
+        "date": "2026-03-04",
+        "seed": 20260304,
+        "climate": "desert",
+        "focusEnemyTypes": ["snake"],
+        "focusPadTypes": ["normal", "moving"],
+        "name": "Dune Drifter",
+        "description": "Slither through the shifting sands!"
+    },
+    {
+        "date": "2026-03-05",
+        "seed": 20260305,
+        "climate": "night",
+        "focusEnemyTypes": ["dragonfly", "mixed"],
+        "focusPadTypes": ["shrinking", "normal"],
+        "name": "Moonlight Mayhem",
+        "description": "The night is full of surprises!"
+    },
+    {
+        "date": "2026-03-06",
+        "seed": 20260306,
+        "climate": "space",
+        "focusEnemyTypes": ["bee"],
+        "focusPadTypes": ["moving", "ice"],
+        "name": "Nebula Navigator",
+        "description": "Buzz through the cosmic clouds!"
+    },
+    {
+        "date": "2026-03-07",
+        "seed": 20260307,
+        "climate": "sunny",
+        "focusEnemyTypes": ["crocodile", "snake"],
+        "focusPadTypes": ["normal", "shrinking"],
+        "name": "Reptile Rush",
+        "description": "All the reptiles are out in the sun!"
+    },
+    {
+        "date": "2026-03-08",
+        "seed": 20260308,
+        "climate": "rain",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["moving", "normal"],
+        "name": "Spring Showers",
+        "description": "April showers came early this year!"
+    },
+    {
+        "date": "2026-03-09",
+        "seed": 20260309,
+        "climate": "desert",
+        "focusEnemyTypes": ["bee", "dragonfly"],
+        "focusPadTypes": ["ice", "moving"],
+        "name": "Mirage Mission",
+        "description": "Is that ice real in the desert heat?"
+    },
+    {
+        "date": "2026-03-10",
+        "seed": 20260310,
+        "climate": "winter",
+        "focusEnemyTypes": ["dragonfly"],
+        "focusPadTypes": ["ice", "shrinking"],
+        "name": "Avalanche Avenue",
+        "description": "Watch your step on these icy platforms!"
+    },
+    {
+        "date": "2026-03-11",
+        "seed": 20260311,
+        "climate": "night",
+        "focusEnemyTypes": ["snake", "crocodile"],
+        "focusPadTypes": ["normal", "moving"],
+        "name": "Nocturnal Nightmare",
+        "description": "Predators own the night!"
+    },
+    {
+        "date": "2026-03-12",
+        "seed": 20260312,
+        "climate": "space",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["shrinking", "moving"],
+        "name": "Starlight Sprint",
+        "description": "Race among the stars on vanishing pads!"
+    },
+    {
+        "date": "2026-03-13",
+        "seed": 20260313,
+        "climate": "sunny",
+        "focusEnemyTypes": ["bee"],
+        "focusPadTypes": ["moving", "ice"],
+        "name": "Lucky Leap",
+        "description": "Feel lucky? These pads say otherwise!"
+    },
+    {
+        "date": "2026-03-14",
+        "seed": 20260314,
+        "climate": "rain",
+        "focusEnemyTypes": ["dragonfly", "bee"],
+        "focusPadTypes": ["shrinking", "normal"],
+        "name": "Pi Day Plunge",
+        "description": "3.14 reasons to stay dry today!"
+    },
+    {
+        "date": "2026-03-15",
+        "seed": 20260315,
+        "climate": "desert",
+        "focusEnemyTypes": ["snake", "crocodile"],
+        "focusPadTypes": ["normal", "ice"],
+        "name": "Cactus Canyon",
+        "description": "Desert reptiles are everywhere!"
+    },
+    {
+        "date": "2026-03-16",
+        "seed": 20260316,
+        "climate": "winter",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["ice", "moving"],
+        "name": "Hibernation Station",
+        "description": "Wake up! Winter's still here!"
+    },
+    {
+        "date": "2026-03-17",
+        "seed": 20260317,
+        "climate": "sunny",
+        "focusEnemyTypes": ["bee", "dragonfly"],
+        "focusPadTypes": ["normal", "shrinking"],
+        "name": "Lucky Lily Pads",
+        "description": "Happy St. Patrick's Day - catch some luck!"
+    },
+    {
+        "date": "2026-03-18",
+        "seed": 20260318,
+        "climate": "night",
+        "focusEnemyTypes": ["crocodile"],
+        "focusPadTypes": ["moving", "ice"],
+        "name": "Croc O'Clock",
+        "description": "Time to face the midnight crocodiles!"
+    },
+    {
+        "date": "2026-03-19",
+        "seed": 20260319,
+        "climate": "space",
+        "focusEnemyTypes": ["bee", "snake"],
+        "focusPadTypes": ["shrinking", "normal"],
+        "name": "Galactic Gateway",
+        "description": "Bees and snakes in zero gravity!"
+    },
+    {
+        "date": "2026-03-20",
+        "seed": 20260320,
+        "climate": "rain",
+        "focusEnemyTypes": ["dragonfly"],
+        "focusPadTypes": ["moving", "shrinking"],
+        "name": "Spring Equinox",
+        "description": "Balance is key on this rainy day!"
+    },
+    {
+        "date": "2026-03-21",
+        "seed": 20260321,
+        "climate": "sunny",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["normal", "ice"],
+        "name": "Vernal Victory",
+        "description": "First day of spring brings mixed challenges!"
+    },
+    {
+        "date": "2026-03-22",
+        "seed": 20260322,
+        "climate": "desert",
+        "focusEnemyTypes": ["snake", "bee"],
+        "focusPadTypes": ["moving", "normal"],
+        "name": "Scorpion Scramble",
+        "description": "Desert creatures are on the hunt!"
+    },
+    {
+        "date": "2026-03-23",
+        "seed": 20260323,
+        "climate": "winter",
+        "focusEnemyTypes": ["dragonfly", "crocodile"],
+        "focusPadTypes": ["ice", "shrinking"],
+        "name": "Polar Plunge",
+        "description": "The cold won't stop these predators!"
+    },
+    {
+        "date": "2026-03-24",
+        "seed": 20260324,
+        "climate": "night",
+        "focusEnemyTypes": ["bee"],
+        "focusPadTypes": ["normal", "moving"],
+        "name": "Starry Swarm",
+        "description": "Bees fly under the moonlight!"
+    },
+    {
+        "date": "2026-03-25",
+        "seed": 20260325,
+        "climate": "space",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["ice", "shrinking"],
+        "name": "Comet Crossing",
+        "description": "Ride the comet's tail to victory!"
+    },
+    {
+        "date": "2026-03-26",
+        "seed": 20260326,
+        "climate": "rain",
+        "focusEnemyTypes": ["crocodile", "snake"],
+        "focusPadTypes": ["moving", "normal"],
+        "name": "Thunder Thicket",
+        "description": "Reptiles thrive in the storm!"
+    },
+    {
+        "date": "2026-03-27",
+        "seed": 20260327,
+        "climate": "sunny",
+        "focusEnemyTypes": ["dragonfly", "bee"],
+        "focusPadTypes": ["shrinking", "ice"],
+        "name": "Pollen Patrol",
+        "description": "Flying insects are everywhere!"
+    },
+    {
+        "date": "2026-03-28",
+        "seed": 20260328,
+        "climate": "desert",
+        "focusEnemyTypes": ["snake"],
+        "focusPadTypes": ["normal", "shrinking"],
+        "name": "Sidewinder Shuffle",
+        "description": "Snake your way through the desert!"
+    },
+    {
+        "date": "2026-03-29",
+        "seed": 20260329,
+        "climate": "winter",
+        "focusEnemyTypes": ["bee", "dragonfly"],
+        "focusPadTypes": ["ice", "moving"],
+        "name": "Glacial Glide",
+        "description": "Insects on ice - what could go wrong?"
+    },
+    {
+        "date": "2026-03-30",
+        "seed": 20260330,
+        "climate": "night",
+        "focusEnemyTypes": ["mixed"],
+        "focusPadTypes": ["shrinking", "normal"],
+        "name": "Eclipse Edge",
+        "description": "Darkness brings all enemies together!"
+    },
+    {
+        "date": "2026-03-31",
+        "seed": 20260331,
+        "climate": "space",
+        "focusEnemyTypes": ["crocodile", "dragonfly"],
+        "focusPadTypes": ["moving", "ice"],
+        "name": "Cosmic Conclusion",
+        "description": "End the month with an out-of-this-world challenge!"
+    }
+]
